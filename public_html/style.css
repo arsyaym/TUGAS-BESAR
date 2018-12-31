@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 28, 2018, 11:38:39 PM
+    Author     : Savage
+*/
+*{
+    font-family: cursive;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 10px 50px 50px 55px;
+}
+.header{
+	background-image: url(lakers.jpg);
+	padding: 20px;
+	background-size: 100%;
+	background-position: center;
+}
+.header h1{
+	padding: 20px 20px 20px 60px;
+}
+.header img{
+	margin: 5px 5px 5px 5px;
+	width: 35px;
+	height: 75px;
+	float: right;
+}
+h2{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 
+        0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00e, 
+    0 0 100px #ff00de, 0 0 150px #ff00de;
+    text-align: left;
+    margin-right: 50px;
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: grey;
+	font-size: 15px;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	margin: 0 0 0 50px;
+}
+li a:hover{
+	background-color: lightgray;
+}
+.ini-table{
+    border-collapse: collapse;
+    font-size: 15px;
+}
+.ini-table th,
+.ini-table td{
+    padding: 7px 17px;
+}
+.ini-table .title{
+    caption-side: bottom;
+    margin-top: 12px;
+}
+.ini-table thead th:last-child,
+.ini-table tfoot th:last-child,
+.ini-table tbody td:last-child{
+    border: 0;
+}
+.ini-table thead th{
+    border-right: 1px solid #c7ecc7;
+    text-transform: uppercase;
+}
+.ini-table tbody td{
+    color: #353535;
+    border-right: 1px solid #c7ecc7;
+}
+.ini-table tbody tr:nth-child(odd) td{
+    background-color: #f4fff7;
+}
+.ini-table tbody tr:nth-child(even) td{
+    background-color: #3dbffe5;
+}
+.ini-table tbody td:nth-child(4),
+.ini-table tbody td:first-child,
+.ini-table tbody td:last-child{
+    text-align: right;
+}
+.ini-table tbody tr:hover td{
+    background-color: #ffffa2;
+    border-color: #ffff0f;
+    transition: all .2s;
+}
+.ini-table tfoot th{
+    border-right: 1px solid #c7ecc7;
+}
+.ini-table tfoot th:first-child{
+    text-align: right;
+}
+.footer{
+	margin-top: auto;
+	width: 100%;
+	height: 30px;
+        text-align: center;
+	background-color: grey;
+	color: white;
+}
